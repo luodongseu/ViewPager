@@ -4,7 +4,7 @@ a mini viewpager
 #使用方法(Layout中)
 
 
- <com.viewpager.MViewPager
+com.viewpager.MViewPager
     android:id="@+id/iv_image"
     android:layout_width="match_parent"
     android:layout_height="180dp"
