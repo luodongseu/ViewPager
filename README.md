@@ -2,12 +2,17 @@
 a mini viewpager
 
 #使用方法(Layout中)
+
+
  <com.viewpager.MViewPager
     android:id="@+id/iv_image"
     android:layout_width="match_parent"
     android:layout_height="180dp"
     android:background="#FFFFFF"
     android:scaleType="center" />
+    
+    
+    
 #代码中
     MViewPager isImages = (MViewPager) findViewById(R.id.iv_image);
 		List<String> pic_list = new ArrayList<String>();
